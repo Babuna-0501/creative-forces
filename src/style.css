@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('./assets/fonts/Segoe\ UI.ttf') format('ttf'),
+         url('./assets/fonts/Segoe\ UI\ Bold.ttf') format('ttf'),
+         url('./assets/fonts/Segoe\ UI\ Italic.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+ 
+
+:root {
+    --custom-font-family: 'CustomFont', sans-serif;
+    --custom-font-src: url('./assets/fonts/Segoe UI.ttf') format('ttf'),
+                      url('./assets/fonts/Segoe UI Bold.ttf') format('ttf'),
+                      url('./assets/fonts/Segoe UI Italic.ttf') format('ttf');
+    --custom-font-weight: normal;
+    --custom-font-style: normal;
+
+    --primary-color: #00BCA9;
+    --secondary-color: #fff;
+    --success-color: #0C9486;
+    --danger-color: #dc3545;
+    --info-color: #17a2b8;
+    --text-color: #575757;
+
+    --container : 1240px
+}
+  
+  
