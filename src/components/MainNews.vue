@@ -32,7 +32,7 @@
   }
   .mainNews .first .title{
     height: 103px;
-    background-color:#00BCA9;
+    background-color:#DCF7F4;
     color: var(--success-color);
     align-items: center;
     padding-left: 48px;
@@ -40,7 +40,7 @@
   }
   .mainNews .second .title{
     height: 103px;
-    background-color:#00BCA9;
+    background-color:#DCF7F4;
     color: var(--success-color);
     align-items: center;
     padding-left: 48px;

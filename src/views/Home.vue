@@ -5,6 +5,7 @@
       <MainNews/>
       <ExtraNews/>
       <SpecialNews/>
+      <Partners/>
       <Footer/>
     </div>
   </template>
@@ -16,6 +17,7 @@
   import MainNews from "../components/MainNews.vue";
   import ExtraNews from "../components/ExtraNews.vue";
   import SpecialNews from "../components/SpecialNews.vue";
+  import Partners from "../components/Partners.vue";
 
   export default {
     name: 'Home',
@@ -25,6 +27,7 @@
     MainNews,
     ExtraNews,
     SpecialNews,
+    Partners,
     Footer,
   },
   };
@@ -35,6 +38,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
 

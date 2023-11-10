@@ -1,19 +1,22 @@
 <template>
-    <div>
-        <div>Logo</div>
-        <div>Search</div>
-        <div></div>
-        <div>Navbar</div>
-    </div>
-  </template>
-  
-  <script>
-  export default {
-    name: 'Footer',
-  };
-  </script>
-  
-  <style scoped>
+  <div class="footer">
+    
+  </div>
+</template>
 
-  </style>
+<script>
+export default {
+  name: 'Footer',
+};
+</script>
+
+<style scoped>
+
+  .footer {
+    width: 100%;
+    height: 412px;
+    background-color: var(--success-color);
+  }
+
+</style>
   

@@ -1,13 +1,8 @@
 <template>
     <swiper :pagination="true" :modules="modules" :autoplay="true" class="mySwiper">
-        <swiper-slide class="slide_wrapper"><img src="../assets/img/hero/hero1.png" alt="">
-            <!-- <span>Бидний зорилго
-                Хүртээмжтэйгээр хөдөлмөр эрхлэлтийн соёлыг хэвшүүлэхэд тухайн ажилтанд үр 
-                дүнтэй байхуйц боломжит тохируулгыг хэрхэн тодорхойлон хэрэгжүүлж болохыг мэргэжлийн 
-                болон мэргэжлийн бус бүх оролцогч талд орон зайн хязгааргүйгээр түгээхийг зорилоо.
-            </span> -->
+        <swiper-slide class="slide_wrapper"><img src="../assets/img/hero/Group 70.png" alt="">
         </swiper-slide>
-      <swiper-slide><img src="../assets/img/hero/hero2.png" alt=""></swiper-slide>
+      <swiper-slide><img src="../assets/img/hero/Group 71.png" alt=""></swiper-slide>
     </swiper>
 </template>
 <script>

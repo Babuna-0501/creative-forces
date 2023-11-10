@@ -123,12 +123,12 @@
         display: flex;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 24rem;
+        margin-top: 25rem;
         border: none;
         border-radius: 20px;
         padding: 4px 60px;
         color: #fff;
-        font-size: 20px;
+        font-size: 19px;
     }
   </style>
   
