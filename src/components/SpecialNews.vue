@@ -37,6 +37,19 @@
   <script>
   export default {
     name: 'SpecialNews',
+    mounted() {
+        document.addEventListener('DOMContentLoaded', function() {
+        var burger = document.querySelector('.burger');
+        var navMenu = document.querySelector('.nav-menu');
+        var menuList = document.querySelector('.menu-list');
+
+        burger.addEventListener('click', function() {
+            navMenu.classList.toggle('open');
+            menuList.classList.toggle('list-open');
+        });
+    });
+
+    }
   };
   </script>
   
@@ -87,7 +100,7 @@
     }
     .box_inner {
         padding: 34px 46px 44px;
-        background-color: var(--primary-color);
+        background-color: var(--info-color);
         border-bottom: 6px solid var(--success-color);
     }
 

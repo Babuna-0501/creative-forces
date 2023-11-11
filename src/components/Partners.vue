@@ -44,9 +44,9 @@ name: 'Partners',
     }
     .partners_wrapper div {
         width: 130px;
+        height: 150px;
         opacity: 0.5;
         cursor: pointer;
     }
-
 </style>
     
